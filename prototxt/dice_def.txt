@@ -1,0 +1,14 @@
+layer {
+  name: "dice"
+  type: "Python"
+  bottom: "score"
+  bottom: "label"
+  top: "dice"
+  exclude {
+    stage: "deploy"
+  }
+  python_param {
+    module: "digits_python_layers"
+    layer: "Dice"
+  }
+}

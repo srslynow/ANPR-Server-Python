@@ -1,0 +1,25 @@
+{
+    "caffe flavor": "NVIDIA",
+    "caffe version": "0.15.13",
+    "creation time": "2016-10-28 19:35:31.587058",
+    "dataset_id": "20161028-193357-3103",
+    "deploy file": "deploy.prototxt",
+    "digits version": "5.1-dev",
+    "framework": "caffe",
+    "id": "20161028-193531-fdef",
+    "image dimensions": [
+        112,
+        512,
+        3
+    ],
+    "job id": "20161028-193531-fdef",
+    "mean file": "mean.binaryproto",
+    "model file": "original.prototxt",
+    "name": "lp-rgb-v4",
+    "python layer file": "digits_python_layers.py",
+    "snapshot file": "snapshot_iter_47500.caffemodel",
+    "solver file": "solver.prototxt",
+    "status": "Done",
+    "train_val file": "train_val.prototxt",
+    "username": "koen"
+}
